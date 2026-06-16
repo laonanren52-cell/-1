@@ -39,7 +39,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/laonanren52-cell/Earth-OL.git
+git clone https://github.com/laonanren52-cell/-1.git
 cd Earth-OL
 
 # 安装依赖

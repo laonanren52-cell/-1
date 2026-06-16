@@ -1,5 +1,5 @@
-import { AchievementCategory, Rarity } from "@/types/achievement";
 "use client";
+import { AchievementCategory, Rarity } from "@/types/achievement";
 
 import { useState } from "react";
 import { categories } from "@/data/achievements";
@@ -93,7 +93,7 @@ export default function CustomCheckInDialog({ open, onClose, onSaved }: Props) {
             <div className="flex items-center justify-between px-5 pt-5 pb-3">
               {step === "result" ? (
                 <button onClick={handleRegenerate} className="flex items-center gap-1.5 text-sm text-ivory-400 hover:text-ivory-500 transition-colors">
-                  <ArrowLeft size={16} /> <span>&#x8FD4;&#x56DE;&#x4FEE;&#x6539;</span>
+                  <ArrowLeft size={16} /> <span>返回修改</span>
                 </button>
               ) : <div />}
               <button onClick={handleReset} className="flex items-center justify-center w-8 h-8 rounded-full text-ivory-400 hover:text-ivory-500 hover:bg-ivory-100 transition-colors">
