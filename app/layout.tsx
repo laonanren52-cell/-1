@@ -44,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="apple-touch-icon" href="/icons/icon-192.png" />
       </head>
       <body className={"min-h-[100dvh] " + notoSans.className}>
+        <div className="fixed top-1 left-3 z-0 text-[9px] text-ivory-300/40 select-none pointer-events-none font-mono tracking-[0.05em]">v2026.1</div>
         <main className="mx-auto min-h-[100dvh] max-w-md bg-ivory-100 pb-safe">
           {children}
         </main>
